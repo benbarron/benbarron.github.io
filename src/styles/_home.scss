@@ -1,0 +1,27 @@
+.home {
+  margin-top: 100px;
+  height: calc(100vh - 100px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 30px;
+  .name-intro {
+    color: $Accent;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .name-heading {
+    color: $LightestSlate;
+    font-size: 96px;
+  }
+  .name-subheading {
+    color: $Slate;
+    font-size: 40px;
+  }
+  .short-bio {
+    margin: 20px 0;
+    color: $Slate;
+    font-size: 20px;
+  }
+}

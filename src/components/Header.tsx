@@ -12,7 +12,7 @@ export const Header = (props: Props) => {
   return (
     <div className='header'>
       <div className='logo'>
-        <img src='/images/logo.png' />
+        <img src='/images/logo.png' alt='logo' />
       </div>
       {width <= 768 && (
         <Fragment>

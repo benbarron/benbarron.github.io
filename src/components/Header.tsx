@@ -26,16 +26,16 @@ export const Header = (props: Props) => {
       <nav className={`${width <= 768 ? 'nav-mobile' : 'nav-full'} ${show ? 'show' : 'hide'}`}>
         <ul>
           <li>
-            <a href=''>Home</a>
+            <a href='#'>Home</a>
           </li>
           <li>
-            <a href=''>Experience</a>
+            <a href='#'>Experience</a>
           </li>
           <li>
-            <a href=''>Education</a>
+            <a href='#'>Education</a>
           </li>
           <li>
-            <a href=''>Contact</a>
+            <a href='#'>Contact</a>
           </li>
           <li>
             <a className='resume-btn' href='/resume.pdf'>

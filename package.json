@@ -21,6 +21,8 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "functions:deploy": "npm run deploy --prefix functions",
+    "functions:dev": "npm run serve --prefix functions",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

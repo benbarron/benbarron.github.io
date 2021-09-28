@@ -12,7 +12,7 @@ export const sendEmail = functions.https.onRequest(async (request, response) => 
   });
   let info = await transporter.sendMail({
     from: request.body.from,
-    to: 'ben7barron@gmail.com',
+    to: functions.config().email.user,
     subject: request.body.subject,
     text: request.body.text,
   });

@@ -1,7 +1,9 @@
+@import '~bootstrap/scss/bootstrap-grid';
 @import 'variables';
 @import 'fonts';
 @import 'header';
 @import 'home';
+@import 'experience';
 
 h1,
 h2,
@@ -12,7 +14,8 @@ h6,
 p,
 a,
 span {
-  font-family: 'Nunito', sans-serif;
+  // font-family: 'Nunito', sans-serif;
+  font-family: 'Roboto Mono', monospace;
 }
 
 body {
@@ -23,4 +26,17 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: scroll;
+}
+
+.main-content-wrapper {
+  position: absolute;
+  width: 100vw;
+  min-height: calc(100vh - 85px);
+  left: 0;
+  top: 85px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 30px;
 }

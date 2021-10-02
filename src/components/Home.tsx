@@ -5,7 +5,7 @@ interface Props {}
 export const Home = (props: Props) => {
   return (
     <Fragment>
-      <div className='home'>
+      <div className='home main-content-wrapper'>
         <h6 className='name-intro'>Hi, my name is </h6>
         <h1 className='name-heading'>Ben Barron</h1>
         <h2 className='name-subheading'>Creative, Driven, and Innovative Tech Professional</h2>

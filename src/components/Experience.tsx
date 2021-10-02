@@ -3,5 +3,9 @@ import React from 'react';
 interface Props {}
 
 export const Experience = (props: Props) => {
-  return <h1></h1>;
+  return (
+    <div className='main-content-wrapper'>
+      <h1>exp</h1>
+    </div>
+  );
 };

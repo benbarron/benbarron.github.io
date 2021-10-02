@@ -1,11 +1,4 @@
 .home {
-  margin-top: 100px;
-  height: calc(100vh - 100px);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: left;
-  padding: 30px;
   .name-intro {
     color: $Accent;
     font-weight: 500;
@@ -23,5 +16,39 @@
     margin: 20px 0;
     color: $Slate;
     font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home {
+    .name-intro {
+      font-size: 30px;
+    }
+    .name-heading {
+      font-size: 72px;
+    }
+    .name-subheading {
+      font-size: 40px;
+    }
+    .short-bio {
+      font-size: 20px;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .home {
+    .name-intro {
+      font-size: 30px;
+    }
+    .name-heading {
+      font-size: 48px;
+    }
+    .name-subheading {
+      font-size: 32px;
+    }
+    .short-bio {
+      font-size: 20px;
+    }
   }
 }

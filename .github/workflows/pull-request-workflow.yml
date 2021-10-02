@@ -4,11 +4,10 @@ on:
   pull_request:
     - branches: '*'
 
-
 jobs:
   build_and_preview:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - run: npm ci && npm run build
-      - run: cd functions && npm ci
+      - run: cd functions && npm ci && npm run build
